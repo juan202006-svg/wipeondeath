@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "wipeondeath",
+  "version": "${version}",
+  "name": "Wipe On Death",
+  "description": "Cuando un jugador muere, el servidor se apaga y el mundo se borra para empezar de cero.",
+  "authors": ["TuNombre"],
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": ["com.wipeondeath.WipeOnDeath"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
